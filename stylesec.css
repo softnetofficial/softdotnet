@@ -1,0 +1,181 @@
+.ustpencere {
+    display:flex;
+    position:relative;
+}
+.ustpencere .logo img {
+    width:75px;
+    height:75px;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Open+Sans&family=Roboto:ital,wght@0,300;1,100&display=swap');
+.ustpencere a#a {
+    border: 1.3px solid #45433e;
+    position:relative;
+    top: 20px;
+    height:max-content;
+    padding:10px;
+    text-decoration: none;
+    color:burlywood;
+    border-radius:10px;
+    left:15px;
+    font-family: 'Roboto', sans-serif;
+}
+.ustpencere a#a:hover {
+    color:#fff;
+    background-color:#45433e;
+    transition:0.3s;
+}
+.ustpencere a#a:not(:hover) {
+    background-color:none;
+    color:burlywood;
+    transition:0.3s;
+}
+.ustpencere a#b {
+    border: 1.3px solid #45433e;
+    position:relative;
+    top: 20px;
+    height:max-content;
+    padding:10px;
+    text-decoration: none;
+    color:burlywood;
+    border-radius:10px;
+    left:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.ustpencere a#b:hover {
+    color:#fff;
+    background-color:#45433e;
+    transition:0.3s;
+}
+.ustpencere a#b:not(:hover) {
+    background-color:none;
+    color:burlywood;
+    transition:0.3s;
+}
+.ustpencere a#c {
+    border: 1.3px solid #45433e;
+    position:relative;
+    top: 20px;
+    height:max-content;
+    padding:10px;
+    text-decoration: none;
+    color:burlywood;
+    border-radius:10px;
+    left:25px;
+    font-family: 'Roboto', sans-serif;
+}
+.ustpencere a#c:hover {
+    color:#fff;
+    background-color:#45433e;
+    transition:0.3s;
+}
+.ustpencere a#c:not(:hover) {
+    background-color:none;
+    color:burlywood;
+    transition:0.3s;
+}
+.img {
+    text-align:center;
+}
+.img img{
+    width:1250px;
+    filter:blur(8px);
+}
+.img h1#first{
+    font-size:75px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+    bottom:675px;
+    color:azure;
+}
+.img h1 span{
+    color:red;
+}
+.img h1#second{
+    font-size:35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+    bottom:675px;
+    color:azure;
+}
+.img button {
+    position:relative;
+    font-size:25px;
+    bottom:600px;
+}
+a#a:hover:before {
+    content:"Ana Sayfaya Git";
+    background-color:#333;
+    border-radius:3px;
+    z-index:2;
+    color:#ffffff;
+    font-family:Arial,sans-serif;
+    padding:10px;
+    position:absolute;
+    top:0px;
+    opacity:0;
+    right:3px;
+    animation-name:mainpage;
+    animation-duration: 0.7s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes mainpage{
+    from {top:0px; opacity:0;}
+    to {top:50px; opacity:1;}
+  }
+  a#b:hover:before {
+    content:"Hakkımızda kısmına git";
+    background-color:#333;
+    border-radius:3px;
+    z-index:2;
+    color:#ffffff;
+    font-family:Arial,sans-serif;
+    padding:10px;
+    position:absolute;
+    right:3px;
+    top:0px;
+    opacity:0;
+    animation-name:mainpage;
+    animation-duration: 0.7s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes mainpage{
+    from {top:0px; opacity:0;}
+    to {top:50px; opacity:1;}
+  }
+  a#c:hover:before {
+    content:"İletişim Kur";
+    background-color:#333;
+    border-radius:3px;
+    z-index:2;
+    color:#ffffff;
+    font-family:Arial,sans-serif;
+    padding:10px;
+    right:3px;
+    position:absolute;
+    top:0px;
+    opacity:0;
+    animation-name:mainpage;
+    animation-duration: 0.7s;
+    animation-fill-mode:forwards;
+  }
+  
+  @keyframes mainpage{
+    from {top:0px; opacity:0;}
+    to {top:50px; opacity:1;}
+  }
+div#message{
+    padding:12.5px;
+    width:250px;
+    height:100px;
+    border-radius:2.5px;
+    position:fixed;
+    opacity:0;
+    align-items:center;
+    background-color:#333;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    top:93%;
+    z-index:1000;
+}
